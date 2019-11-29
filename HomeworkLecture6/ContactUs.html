@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Solar System</title>
+        <meta charset="UTF-8"/>
+        <link href="Styles/Style.css" rel="stylesheet" type="text/css"/>
+        <base target="_blank"/>
+    </head>
+    <body>
+        <nav id="topNavigation">
+            <div id="homeNavElement">
+                <a href="Index.html">
+                    <img src="Assets/Images/Logo.png" alt="logo" width="50"/>
+                </a>
+            </div>
+            <div id="newsLink" class="navLinks">
+                <a href="News.html">News</a>
+            </div>
+            <div id="contactLink" class="navLinks">
+                <a href="ContactUs.html">Contact us</a>
+            </div>
+            <div id="galleryLink" class="navLinks">
+                <a href="Gallery.html">Gallery</a>
+            </div>
+        </nav>
+
+        <div id="mainBackground">
+        </div>
+
+        <main>
+
+            <nav id="breadcrumbs">
+                <div>
+                </div>
+            </nav>
+
+            <h1>Contact us</h1>
+
+            <div>
+                <form action="MainPage.html" method="GET">
+                    <div>
+                        <label class="textLabel" for="firstName">First name</label>
+                        <input type="text" id="firstName" name="firstName" required placeholder="John"/>
+                    </div>
+                    <div>
+                        <label class="textLabel" for="lastName">Last name</label>
+                        <input type="text" id="lastName" name="lastName" required placeholder="Smith"/>
+                    </div>
+                    <div>
+                        <label class="textLabel" for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="example@domain.com"/>
+                    </div>
+                    <div>
+                        <label for="newsletter">Check this box if you would like to subscribe to our newsletter on the latest astrological discoveries.</label>
+                        <input type="checkbox" id="newsletter" name="newsletter"/>
+                    </div>
+                    <div>
+                        <div>
+                            Mark the option that matches the subject of your enquiry.
+                        </div>
+                        <div class="optionSet">
+                        <input type="radio" id="solarSystem" name="subject" value="solarSystem"/>
+                        <label for="solarSystem">The Solar System</label>
+                        </div>
+                        <div class="optionSet">   
+                        <input type="radio" id="planets" name="subject" value="planets"/>
+                        <label for="planets">The Planets</label>
+                        </div>
+                        <div class="optionSet">
+                        <input type="radio" id="outerSpace" name="subject" value="outerSpace"/>
+                        <label for="outerSpace">Outer Space</label>
+                    </div>
+                    <div>
+                        <div>
+                            <label for="description">Please, state your enquiry in the textbox below.</label>
+                        </div>
+                        <textarea id="description" name="description" required placeholder="reason for contacting us"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Submit enquiry">
+                    </div>
+                    <br/>
+                </form>
+            </div>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,132 @@
+body{
+    font-family:"Verdana";
+    background-color:#2c3e50;
+}
+#topNavigation{
+    width:100%;
+    height:60px;
+    background-color:#2980b9;
+    position:fixed;
+    z-index:1;
+    top:0;
+    left:0;
+    font-size:13px;
+}
+#topNavigation div{
+    display:inline-block;
+    position:absolute;
+}
+#homeNavElement{
+    top:5px;
+    left:15%;
+}
+.navLinks{
+    top:23px;
+}
+.navLinks a:link,.navLinks a:visited{
+    color:#ffffff;
+}
+#newsLink{
+    left:35%;
+}
+#contactLink{
+    left:45%;
+}
+#galleryLink{
+    left:57%;
+}
+#mainBackground{
+    background-color:#ffffff;
+    left:80px;
+    top:0;
+    right:80px;
+    height:100%;
+    position:fixed;
+    z-index:-1;
+}
+main{
+    font-size:14px;
+    margin-left:100px;
+    margin-right:80px;
+}
+#breadcrumbs{
+    margin-top:100px;
+}
+h1{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.articleText{
+    width:60%;
+    margin-right:40px;
+    display:inline-block;
+}
+#articleIllustration{
+    display:inline-block;
+    vertical-align:top;
+}
+#articleIllustration img{
+    width:300px;
+    margin-right:35px;
+}
+figcaption{
+    font-size:12px;
+    width:300px;
+}
+.images{
+    padding-right:40px;
+}
+.images img{
+    padding:30px;
+    width:300px;
+    vertical-align: middle;
+}
+.media{
+    margin-top:100px;
+    margin-right:70px;
+    text-align:right;
+}
+.textLabel{
+    display:inline-block;
+    width:100px;
+    margin-right:10px;
+}
+form div{
+    margin-bottom:10px;
+}
+input[type="text"],input[type="email"]{
+    width:50%;
+}
+input[type="text"],input[type="email"],textarea{
+    border-width:1px;
+    border-radius:4px;
+    border-color:#f2f7f8;
+    padding:10px;
+    background-color:#f2f7f8;
+    outline:none;
+}
+input[type="text"]:focus,input[type="email"]:focus,textarea:focus{
+    background-color:#ffffff;
+    border-width:1px;
+    border-radius:4px;
+    border-color:#f2f7f8;
+}
+.optionSet{
+    margin-bottom:3px;
+}
+input[type="radio"]{
+    margin-left:100px;
+}
+textarea{
+    margin-left:100px;
+    width:50%;
+    height:40px;
+}
+input[type="submit"]{
+    background-color:#2980b9;
+    border:0;
+    width:100px;
+    padding:5px;
+    color:#ffffff;
+    margin-left:100px;
+}
