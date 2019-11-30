@@ -101,6 +101,8 @@ input[type="text"],input[type="email"],textarea{
     border-width:1px;
     border-radius:4px;
     border-color:#f2f7f8;
+    border-top-color:#a0a3a4;
+    border-left-color:#a0a3a4;
     padding:10px;
     background-color:#f2f7f8;
     outline:none;
@@ -110,6 +112,8 @@ input[type="text"]:focus,input[type="email"]:focus,textarea:focus{
     border-width:1px;
     border-radius:4px;
     border-color:#f2f7f8;
+    border-top-color:#a0a3a4;
+    border-left-color:#a0a3a4;
 }
 .optionSet{
     margin-bottom:3px;
